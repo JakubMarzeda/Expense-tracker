@@ -1,0 +1,50 @@
+.add-expense-container{
+    display: flex;
+    justify-content: center;
+}
+.add-expense-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-expense-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-group input {
+    font-size: medium;
+    padding: 3px; 
+    color: black;
+}
+
+button {
+    background-color: green;
+    font-size: medium;
+    padding: 3px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    justify-content: center;
+}

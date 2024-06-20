@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-event{
+    display: flex;
+    gap: 20%;
+}
+
+.download-raport {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send-raport form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+select {
+    font-size: medium;
+    padding: 5px;
+}
+
+input {
+    font-size: medium;
+    padding: 5px;
+}
